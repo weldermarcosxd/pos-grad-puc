@@ -1,8 +1,10 @@
+import { MainMenuStyled } from "../styles/MainMenuStyled";
+
 export const MainMenu = () => (
-    <nav>
+    <MainMenuStyled>
         <ul>
             <li>Home</li>
             <li>Sobre</li>
         </ul>
-    </nav>
+    </MainMenuStyled>
 );

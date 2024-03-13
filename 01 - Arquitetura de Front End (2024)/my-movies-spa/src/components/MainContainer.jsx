@@ -3,7 +3,7 @@ import { ItemDeFilme } from "./ItemDeFilme";
 export const MainContainer = ({filmes}) => (
     <section>
         <ul>
-            {filmes.map(f => <ItemDeFilme titulo={f.title} />)}
+            {filmes.map(f => <ItemDeFilme key={f.title} titulo={f.title} />)}
         </ul>
     </section>
 );

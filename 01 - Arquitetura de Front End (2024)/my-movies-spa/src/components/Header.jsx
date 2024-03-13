@@ -1,8 +1,9 @@
+import { HeaderStyled } from "../styles/HeaderStyled";
 import { MainMenu } from "./MainMenu";
 
 export const Header = () => (
-    <header>
+    <HeaderStyled>
         <h1>Meus filmes</h1>
         <MainMenu></MainMenu>
-    </header>
+    </HeaderStyled>
 );
