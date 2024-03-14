@@ -5,4 +5,5 @@ export const MainContainerStyled = styled.section`
     background: #cecece;
     border: 1px solid black;
     border-radius: 10px;
+    margin: 0 10px;
 `

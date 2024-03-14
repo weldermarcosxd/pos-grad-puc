@@ -1,0 +1,1 @@
+export const NaoEncontrada = () => <h1>Página não encontrada</h1>;

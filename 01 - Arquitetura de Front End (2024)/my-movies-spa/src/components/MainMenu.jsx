@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 import { MainMenuStyled } from "../styles/MainMenuStyled";
 
 export const MainMenu = () => (
     <MainMenuStyled>
         <ul>
-            <li>Home</li>
-            <li>Sobre</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
         </ul>
     </MainMenuStyled>
 );

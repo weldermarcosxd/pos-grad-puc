@@ -9,7 +9,12 @@ export class MoviesService {
     static obterFilmes()
     {
         let url = ObterUrl("movie/popular");
-        console.log(url);
+        return axios(url);
+    }
+
+    static obterFilmePorId(id)
+    {
+        let url = ObterUrl(`movie/${id}`);
         return axios(url);
     }
 }
